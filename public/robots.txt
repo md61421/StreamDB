@@ -1,0 +1,38 @@
+User-agent: *
+Disallow: /movies/
+Disallow: /tv/
+Disallow: /person/
+Disallow: /collections/
+Disallow: /companies/
+Disallow: /networks/
+Disallow: /*.jpg$
+Disallow: /*.jpeg$
+Disallow: /*.png$
+Disallow: /*.gif$
+Disallow: /*.bmp$
+Disallow: /*.webp$
+Disallow: /*.svg$
+Disallow: /en/
+Disallow: /m/
+
+# Allow these images
+Allow: /logo192.png
+Allow: /logo256.png
+Allow: /logo384.png
+Allow: /logo512.png
+Allow: /favicon-32x32.png
+Allow: /favicon-16x16.png
+Allow: /apple-touch-icon.png
+Allow: /maskable.png
+
+# Allow images in the /images/ directory
+Allow: /images/*.jpg
+Allow: /images/*.jpeg
+Allow: /images/*.png
+Allow: /images/*.gif
+Allow: /images/*.bmp
+Allow: /images/*.webp
+Allow: /images/*.svg
+
+# Allow images in the /screenshots/ directory
+Allow: /screenshots/*.png

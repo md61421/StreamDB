@@ -1,0 +1,90 @@
+{
+  "id": "https://streamdb.vercel.app",
+  "lang": "en",
+  "start_url": "https://streamdb.vercel.app",
+  "scope": "https://streamdb.vercel.app",
+  "name": "StreamDB",
+  "short_name": "StreamDB",
+  "description": "StreamDB - A progressive web app (PWA) to preview any movie or tv show with reviews, ratings, description and posters.",
+  "theme_color": "#121212",
+  "background_color": "#121212",
+  "display": "standalone",
+  "orientation": "portrait",
+  "categories": ["entertainment"],
+  "dir": "ltr",
+  "display_override": ["standalone", "window-controls-overlay"],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 412
+  },
+  "icons": [
+    {
+      "src": "maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    { "src": "logo192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "logo256.png", "sizes": "256x256", "type": "image/png", "purpose": "any" },
+    { "src": "logo384.png", "sizes": "384x384", "type": "image/png", "purpose": "any" },
+    { "src": "logo512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/mobile/ss-1.png",
+      "type": "image/png",
+      "sizes": "412x915",
+      "form_factor": "narrow",
+      "label": "StreamDB Home Screen"
+    },
+    {
+      "src": "screenshots/mobile/ss-2.png",
+      "type": "image/png",
+      "sizes": "412x915",
+      "form_factor": "narrow",
+      "label": "StreamDB Movie Details Screen"
+    },
+    {
+      "src": "screenshots/mobile/ss-3.png",
+      "type": "image/png",
+      "sizes": "412x915",
+      "form_factor": "narrow",
+      "label": "StreamDB TV Show Details Screen"
+    },
+    {
+      "src": "screenshots/mobile/ss-4.png",
+      "type": "image/png",
+      "sizes": "412x915",
+      "form_factor": "narrow",
+      "label": "StreamDB Explore Page"
+    },
+    {
+      "src": "screenshots/desktop/ss-1.png",
+      "type": "image/png",
+      "sizes": "1440x915",
+      "form_factor": "wide",
+      "label": "StreamDB Home Screen"
+    },
+    {
+      "src": "screenshots/desktop/ss-2.png",
+      "type": "image/png",
+      "sizes": "1440x915",
+      "form_factor": "wide",
+      "label": "StreamDB Movie Details Screen"
+    },
+    {
+      "src": "screenshots/desktop/ss-3.png",
+      "type": "image/png",
+      "sizes": "1440x915",
+      "form_factor": "wide",
+      "label": "StreamDB TV Show Details Screen"
+    },
+    {
+      "src": "screenshots/desktop/ss-4.png",
+      "type": "image/png",
+      "sizes": "1440x915",
+      "form_factor": "wide",
+      "label": "StreamDB Explore Page"
+    }
+  ]
+}
