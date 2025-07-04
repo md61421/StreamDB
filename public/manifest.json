@@ -1,8 +1,8 @@
 {
-  "id": "https://streamdb.vercel.app",
+  "id": "https://streamdb-omega.vercel.app",
   "lang": "en",
-  "start_url": "https://streamdb.vercel.app",
-  "scope": "https://streamdb.vercel.app",
+  "start_url": "https://streamdb-omega.vercel.app",
+  "scope": "https://streamdb-omega.vercel.app",
   "name": "StreamDB",
   "short_name": "StreamDB",
   "description": "StreamDB - A progressive web app (PWA) to preview any movie or tv show with reviews, ratings, description and posters.",
