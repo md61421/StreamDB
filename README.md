@@ -10,8 +10,6 @@ StreamDB is a modern, feature-rich web app for discovering, previewing, and trac
 
 ---
 
-> **Note:** This project is fully customized for StreamDB.
-
 ## Previews
 
 ![](https://i.imgur.com/zmq8tVR.jpeg)
