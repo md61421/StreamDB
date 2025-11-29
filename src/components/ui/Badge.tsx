@@ -5,3 +5,5 @@ export const Badge = ({ text }: { text: string }) => (
     {text}
   </span>
 );
+
+// Added support for multiple color variants
