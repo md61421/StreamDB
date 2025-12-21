@@ -5,3 +5,5 @@ export const Logo = () => (
     StreamDB
   </div>
 );
+
+// Updated logo with responsive text sizes for mobile
