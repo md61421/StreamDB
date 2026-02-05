@@ -3,3 +3,5 @@ export const trackEvent = (eventName: string, props?: any) => {
     console.log('[Analytics]', eventName, props);
   }
 };
+
+export const trackPageView = (url: string) => trackEvent('page_view', { url });
