@@ -1,4 +1,4 @@
-export const trackEvent = (eventName: string, props?: any) => {
+export const trackEvent = (eventName: string, props?: Record<string, unknown>) => {
   if (process.env.NODE_ENV !== 'production') {
     console.log('[Analytics]', eventName, props);
   }

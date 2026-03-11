@@ -1,5 +1,7 @@
 import { useState } from 'react';
-export const useFetch = (url: string) => {
-  const [data, setData] = useState(null);
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+export const useFetch = (_url: string) => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const [data, _setData] = useState(null);
   return { data, loading: false, error: null };
 };

@@ -1,3 +1,4 @@
 export const getItem = (key: string) => {
-  try { return window.localStorage.getItem(key); } catch (e) { return null; }
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  try { return window.localStorage.getItem(key); } catch (_e) { return null; }
 };
